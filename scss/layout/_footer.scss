@@ -1,0 +1,19 @@
+.nav-footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #273a71;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        justify-content: center;
+
+        a {
+            text-decoration: none;
+            padding: 30px;
+            color: #fff;
+        }
+    }  
+       
+}

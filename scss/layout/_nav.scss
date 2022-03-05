@@ -1,0 +1,44 @@
+.main-section {
+    background-color:  #87509c;
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+    
+
+    .nav-section {
+       .nav-list {
+            display: flex;
+            list-style: none;
+            padding: 20px 80px;
+            a {
+                text-decoration: none;
+                padding: 0 10px;
+                color:#fff;
+                text-transform: uppercase;
+
+                &:hover {
+                    background-color: #643a79 ;
+                }
+            }
+        }
+    }
+
+    .main-header {
+        display: inline-block;
+        margin: 40px auto;
+        max-width: 70%;
+
+        
+        h2 {
+            text-align: center;
+        }
+        a {
+            display: flex;
+        }
+    }
+}

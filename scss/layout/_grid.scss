@@ -1,0 +1,113 @@
+.our-members {
+    max-width: 80%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+
+    .circle {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: #696969;
+        margin: 0 auto;
+        }
+    
+    h3,
+    .profession {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .profession {
+        color: #55c2e9;
+    }
+
+    .icon-holder {
+        a {
+            
+            color: #fff;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background-color:  #c8d9e5;
+            display: inline-block;
+            font-size: 15px;
+            i {
+                line-height: 15px;
+            }
+            
+        }
+    }
+
+}
+
+.about-us-header {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+
+
+.skills-holder {
+    display: flex;
+    justify-content: center;
+
+    .circle-holder{
+        margin: 40px 40px;
+    }
+
+    h4 {
+        display: flex;
+        justify-content: center;
+    }
+}
+     
+.about-us-opinion {
+    padding-top: 10px;
+    padding-bottom: 100px;
+      
+    .opinions-holder {
+        max-width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        .comments-holder {
+            display: flex;
+            justify-content: center;
+            flex-basis: 50%;
+            padding-left: 30px;
+            padding-right: 30px;
+            .circle {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                background-color: #696969;
+                margin-right: 10px;
+                margin-top: 15px;
+            }
+
+            .description-holder {
+                padding-left: 20px;
+                padding-right: 20px;
+                max-width: 70%;
+                text-align: justify;
+
+                h3 {
+                    margin: 0;
+                    text-transform: uppercase;
+                }
+                .profession {
+                    margin-top: 0;
+                    color: #ffdd99;
+                }
+            }
+        }
+    }   
+
+}
+    
+
+    
+
+   

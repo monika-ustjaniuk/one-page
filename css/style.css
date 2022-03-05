@@ -1,0 +1,369 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 100px;
+}
+
+.team-header hr,
+.about-us-header hr,
+.form-header hr {
+  opacity: .5;
+  width: 60px;
+}
+
+.team-header p,
+.about-us-header p,
+.form-header p {
+  text-align: center;
+}
+
+.about-us-opinion {
+  background-color: #d74680;
+  color: #fff;
+}
+
+.about-us-opinion .people-say hr {
+  border: 1px solid #b73c6d;
+  width: 60px;
+}
+
+.about-us-opinion .people-say p {
+  text-align: center;
+}
+
+.main-section .header-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.main-section .header-button a {
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 24px;
+  background-color: #eb7d4b;
+  width: 200px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-transform: uppercase;
+}
+
+.btn-secondary {
+  color: #fff;
+  padding: 14px 24px;
+  width: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #55c2e9;
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+.main-section {
+  background-color: #87509c;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.main-section .nav-section .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 20px 80px;
+}
+
+.main-section .nav-section .nav-list a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.main-section .nav-section .nav-list a:hover {
+  background-color: #643a79;
+}
+
+.main-section .main-header {
+  display: inline-block;
+  margin: 40px auto;
+  max-width: 70%;
+}
+
+.main-section .main-header h2 {
+  text-align: center;
+}
+
+.main-section .main-header a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.our-team {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #e7f1f8;
+}
+
+.about-us .circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 60px;
+}
+
+.about-us .skills-1 {
+  border: 5px solid #34b7eb;
+}
+
+.about-us .skills-2 {
+  border: 5px solid #dc4481;
+}
+
+.about-us .skills-3 {
+  border: 5px solid #17c5aa;
+}
+
+.about-us .skills-4 {
+  border: 5px solid #ec7d4f;
+}
+
+.our-members {
+  max-width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+
+.our-members .circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #696969;
+  margin: 0 auto;
+}
+
+.our-members h3,
+.our-members .profession {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.our-members .profession {
+  color: #55c2e9;
+}
+
+.our-members .icon-holder a {
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #c8d9e5;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.our-members .icon-holder a i {
+  line-height: 15px;
+}
+
+.about-us-header {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.skills-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skills-holder .circle-holder {
+  margin: 40px 40px;
+}
+
+.skills-holder h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-us-opinion {
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+.about-us-opinion .opinions-holder {
+  max-width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.about-us-opinion .opinions-holder .comments-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.about-us-opinion .opinions-holder .comments-holder .circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #696969;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.about-us-opinion .opinions-holder .comments-holder .description-holder {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 70%;
+  text-align: justify;
+}
+
+.about-us-opinion .opinions-holder .comments-holder .description-holder h3 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.about-us-opinion .opinions-holder .comments-holder .description-holder .profession {
+  margin-top: 0;
+  color: #ffdd99;
+}
+
+.form-section {
+  padding-top: 10px;
+  padding-bottom: 100px;
+  background-color: #3c5499;
+}
+
+.form-section h1,
+.form-section p {
+  color: #fff;
+}
+
+.form-section h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.form-section hr {
+  border: 1px solid  #273a71;
+}
+
+.form-section form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 50%;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.form-section form .your-name,
+.form-section form .your-email {
+  -ms-flex-preferred-size: 48%;
+      flex-basis: 48%;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 22%;
+  background-color: #273a71;
+  border: 1px solid  #273a71;
+}
+
+.form-section form .your-name {
+  margin-right: 20px;
+}
+
+.form-section form textarea {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  height: 100px;
+  background-color: #273a71;
+  border: 1px solid  #273a71;
+}
+
+.nav-footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #273a71;
+}
+
+.nav-footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-footer ul a {
+  text-decoration: none;
+  padding: 30px;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

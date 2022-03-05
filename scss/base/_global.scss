@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+
+
+.team-header,
+.about-us-header,
+.form-header {
+    hr {
+        opacity: .5;
+        width: 60px;
+    }
+    p {
+        text-align: center;
+    }
+}
+
+.about-us-opinion{
+    background-color: #d74680;
+    color: #fff;
+    .people-say{
+        hr {
+            border: 1px solid #b73c6d;
+            width: 60px;
+        }
+        p {
+            text-align: center;
+        }
+    }
+}
+
